@@ -175,7 +175,7 @@ if (!Object.keys) {
 		try {
 			return equalsConstructorPrototype(o);
 		} catch (e) {
-			return false;
+			return true;
 		}
 	};
 
