@@ -117,7 +117,7 @@ export function renderControlledInput(InputComponent, props) {
 // https://testing-library.com/docs/user-event/intr
 export function renderWithUserEvent(jsx) {
   return {
-    user: userEvent.setup(),
+    user: userEvent.setup(1),
     ...render(jsx),
   };
 }
