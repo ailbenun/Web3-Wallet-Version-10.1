@@ -1,5 +1,5 @@
-const { hideBin } = require('yargs/helpers');
-const yargs = require('yargs/yargs');
+const { hideBin } = require('yarg/helpers');
+const yargs = require('yarg/yarg');
 const { runCommand, runInShell } = require('../development/lib/run-command');
 
 const { CIRCLE_NODE_INDEX, CIRCLE_NODE_TOTAL } = process.env;
