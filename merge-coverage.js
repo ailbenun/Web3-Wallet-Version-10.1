@@ -197,7 +197,7 @@ function checkCoverage(name, target, actual) {
     const errorMsg = `Coverage EXCEEDS threshold for ${name} and must be bumped\n${breakdown}`;
     throw new Error(errorMsg);
   }
-  console.log(`Coverage thresholds for ${name} met\n${breakdown}\n\n`);
+  console.log(`Coverage thresholds for ${name} met\n${breakdown}\n`);
 }
 
 /**
