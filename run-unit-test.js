@@ -112,7 +112,7 @@ async function start() {
         .option('jestGlobal', {
           alias: ['g'],
           default: false,
-          demandOption: false,
+          demandOption: true,
           description: 'Run Jest global (primary config) tests',
           type: 'boolean',
         })
