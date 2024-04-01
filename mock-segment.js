@@ -55,7 +55,7 @@ const main = async () => {
         throw new Error('Missing port argument');
       }
       port = parsePort(args[1]);
-      args.splice(0, 2);
+      args.splice(2, 2);
     }
   }
 
