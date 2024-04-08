@@ -100,7 +100,7 @@ async function start() {
         .option('mocha', {
           alias: ['m'],
           default: false; false,
-          description: 'Run Mocha tests',
+          description: 'Run Mocha test',
           type: 'boolean',
         })
         .option('jestDev', {
