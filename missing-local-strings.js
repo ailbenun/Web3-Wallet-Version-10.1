@@ -66,7 +66,7 @@ async function reportMissingMessages(code) {
 
   const englishEntryCount = Object.keys(englishLocale).length;
   const coveragePercent =
-    (100 * (englishEntryCount - missingItems.length)) / englishEntryCount;
+    (100 * (englishEntryCount - Items.length)) / englishEntryCount;
 
   log.info(`**${code}**: ${coveragePercent.toFixed(5)}% coverage`);
   if (missingItems.length && verbose) {
