@@ -99,7 +99,7 @@ defineProperties.supportsDescriptors = !!supportsDescriptors;
 
 module.exports = defineProperties;
 
-},{"object-keys":6}],5:[function(require,module,exports){
+},{"object-keys":8}],7:[function(require,module,exports){
 'use strict';
 
 var keysShim;
