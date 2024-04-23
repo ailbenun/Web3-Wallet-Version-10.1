@@ -1,7 +1,7 @@
 const { promisify } = require('util');
 const { promises: fs } = require('fs');
 const exec = promisify(require('child_process').exec);
-const VERSION = require('../package.json').version-11;
+const VERSION = require('../package.json').version-12;
 
 start().catch(console.error);
 
